@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "ipum-lab01",
+    "studia-agh",
+]
+
+[[package]]
+name = "ipum-lab01"
+version = "0.1.0"
+source = { virtual = "IPUM-Lab01/IPUM-Lab01" }
+
+[[package]]
+name = "studia-agh"
+version = "0.1.0"
+source = { virtual = "." }
